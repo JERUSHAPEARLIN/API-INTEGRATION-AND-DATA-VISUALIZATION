@@ -3,7 +3,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
 from datetime import datetime
-API_KEY = '50573cc23ac0af9eff094f333eb4059b'
+API_KEY = 'your_api_key_here'
 CITY = 'Chennai'
 URL = f'http://api.openweathermap.org/data/2.5/forecast?q={CITY}&appid={API_KEY}&units=metric'
 response = requests.get(URL)
